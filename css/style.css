@@ -1,0 +1,157 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  height: auto; }
+
+.container-fluid {
+  width: 100%; }
+
+.section-padding {
+  padding: 50px 0px; }
+
+.inner-padding {
+  padding: 15px 0px; }
+
+.row {
+  position: relative; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+div[class^="col-"] {
+  float: left;
+  margin: 10px;
+  position: relative; }
+
+.col-1 {
+  width: calc((100%/12)*1 - (2*10px)); }
+
+.col-2 {
+  width: calc((100%/12)*2 - (2*10px)); }
+
+.col-3 {
+  width: calc((100%/12)*3 - (2*10px)); }
+
+.col-4 {
+  width: calc((100%/12)*4 - (2*10px)); }
+
+.col-5 {
+  width: calc((100%/12)*5 - (2*10px)); }
+
+.col-6 {
+  width: calc((100%/12)*6 - (2*10px)); }
+
+.col-7 {
+  width: calc((100%/12)*7 - (2*10px)); }
+
+.col-8 {
+  width: calc((100%/12)*8 - (2*10px)); }
+
+.col-9 {
+  width: calc((100%/12)*9 - (2*10px)); }
+
+.col-10 {
+  width: calc((100%/12)*10 - (2*10px)); }
+
+.col-11 {
+  width: calc((100%/12)*11 - (2*10px)); }
+
+.col-12 {
+  width: calc((100%/12)*12 - (2*10px)); }
+
+body {
+  margin: 0px; }
+
+#pricing .container .row h1 {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-family: "Dosis", sans-serif;
+  opacity: 0.8;
+  text-align: center; }
+#pricing .container .row .line {
+  width: 50px;
+  height: 1px;
+  background: black;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+#pricing .container .row .col-4 .button1 button {
+  padding: 8px 156px;
+  background-color: #f2f2f2;
+  transition: 0.5s ease;
+  border: none;
+  outline: none;
+  box-shadow: 3px bottom;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif; }
+  #pricing .container .row .col-4 .button1 button:hover {
+    background-color: red;
+    transition: 0.5s ease;
+    color: #fff; }
+#pricing .container .row .col-4 .button2 button {
+  padding: 8px 156px;
+  background-color: #f2f2f2;
+  transition: 0.5s ease;
+  border: none;
+  outline: none;
+  box-shadow: 3px bottom;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif; }
+  #pricing .container .row .col-4 .button2 button:hover {
+    background-color: red;
+    transition: 0.5s ease;
+    color: #fff; }
+#pricing .container .row .col-4 .button3 button {
+  padding: 8px 156px;
+  background-color: #f2f2f2;
+  transition: 0.5s ease;
+  border: none;
+  outline: none;
+  box-shadow: 3px bottom;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif; }
+  #pricing .container .row .col-4 .button3 button:hover {
+    background-color: red;
+    transition: 0.5s ease;
+    color: #fff; }
+#pricing .container .row .col-4 span {
+  position: relative;
+  left: 170px;
+  bottom: 200px;
+  text-decoration: line-through;
+  color: white; }
+#pricing .container .row .col-4 h3 {
+  position: relative;
+  left: 167px;
+  bottom: 184px;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: Tahoma; }
+#pricing .container .row .col-4 h4 {
+  position: relative;
+  left: 166px;
+  bottom: 182px;
+  padding: 0;
+  margin: 0;
+  color: white; }
+#pricing .container .row .col-4 img {
+  width: 100%;
+  height: 100%; }
+#pricing .container .row .col-4 ul {
+  position: relative;
+  top: -50px; }
+  #pricing .container .row .col-4 ul li {
+    font-family: Tahoma;
+    margin-bottom: 15px;
+    list-style-type: none; }
+  #pricing .container .row .col-4 ul svg {
+    float: right; }
+
+/*# sourceMappingURL=style.css.map */
